@@ -44,6 +44,22 @@ Perception缺點：
 - Perception演算法的錯誤率不會逐步收斂
 - Perception演算法只知道結果是A類還B類，但沒辦法知道是A, B類的機率是多少（Logistic regression可解決此問題）
 
+#### Any Questions?
+Q: What kind of problems can it fix?
+
+A: Binary Classification (二元分類), a type of linear classifier
+
+
+Q: Can it solve multiclass problems?
+
+A: 有點麻煩，參考別人的例子：
+
+Suppose we have data (𝑥1,𝑦1),…,(𝑥𝑘,𝑦𝑘) where 𝑥𝑖∈ℝ𝑛 are input vectors and 𝑦𝑖∈{red, blue, green} are the classifications.
+
+We know how to build a classifier for binary outcomes, so we do this three times: group the outcomes together, {red, blue or green},{blue, red or green} and {green, blue or red}.
+
+
+
 ## Version
 1.0
 
